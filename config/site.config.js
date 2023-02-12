@@ -54,7 +54,10 @@ module.exports = {
     {
       name: 'GitHub',
       link: 'https://github.com/spencerwooo/onedrive-vercel-index',
-    },
+    }, {
+      name: 'TypeMoon吧',
+      link: 'https://tieba.baidu.com/f?kw=type-moon&ie=utf-8',
+    }
   ],
 
   // This is a day.js-style datetime format string to format datetimes in the app. Ref to
