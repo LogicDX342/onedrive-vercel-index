@@ -45,7 +45,7 @@ module.exports = {
   protectedRoutes: ['/🌞 Private folder/u-need-a-password', '/🥟 Some test files/Protected route'],
 
   // [OPTIONAL] Use "" here if you want to remove this email address from the nav bar.
-  email: '',
+  email: 'typemoonpostbar@126.com',
 
   // [OPTIONAL] This is an array of names and links for setting your social information and links.
   // In the latest update, all brand icons inside font awesome is supported and the icon to render is based on the name
@@ -53,7 +53,13 @@ module.exports = {
   links: [
     {
       name: 'TypeMoon吧',
-      link: 'https://tieba.baidu.com/f?kw=type-moon&ie=utf-8',
+      link: 'https://tieba.baidu.com/f?kw=type-moon&ie=utf-8'
+    },{
+      name: 'bilibili',
+      link: 'https://space.bilibili.com/34491782/',
+    },{
+      name: 'weibo',
+      link: 'https://weibo.com/typemoonpostbar'
     }
   ],
 
