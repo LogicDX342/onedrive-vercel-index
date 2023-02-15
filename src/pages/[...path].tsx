@@ -15,7 +15,6 @@ export default function Folders() {
   return (
     <div className="flex min-h-screen flex-col items-center justify-center bg-white dark:bg-gray-900">
       <Head>
-      <meta name="baidu-site-verification" content="codeva-rhNbiK8hZp" />
         <title>{siteConfig.title}</title>
       </Head>
 
