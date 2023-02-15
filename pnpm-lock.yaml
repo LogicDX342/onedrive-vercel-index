@@ -16,6 +16,7 @@ specifiers:
   '@types/react-dom': ^18.0.10
   '@types/react-pdf': ^6.2.0
   '@types/react-syntax-highlighter': ^15.5.6
+  '@vercel/analytics': ^0.1.8
   autoprefixer: ^10.4.13
   awesome-debounce-promise: ^2.1.0
   axios: ^1.2.6
@@ -71,6 +72,7 @@ dependencies:
   '@fortawesome/react-fontawesome': 0.2.0_z27bm67dtmuyyvss23ckjdrcuy
   '@headlessui/react': 1.7.8_biqbaboplfbrettd7655fr4n2y
   '@tailwindcss/line-clamp': 0.4.2_tailwindcss@3.2.4
+  '@vercel/analytics': 0.1.8_react@18.2.0
   awesome-debounce-promise: 2.1.0
   axios: 1.2.6
   cors: 2.8.5
@@ -805,6 +807,14 @@ packages:
       '@typescript-eslint/types': 5.49.0
       eslint-visitor-keys: 3.3.0
     dev: true
+
+  /@vercel/analytics/0.1.8_react@18.2.0:
+    resolution: {integrity: sha512-PQrOI8BJ9qUiVJuQfnKiJd15eDjDJH9TBKsNeMrtelT4NAk7d9mBVz1CoZkvoFnHQ0OW7Xnqmr1F2nScfAnznQ==}
+    peerDependencies:
+      react: ^16.8||^17||^18
+    dependencies:
+      react: 18.2.0
+    dev: false
 
   /@xmldom/xmldom/0.7.9:
     resolution: {integrity: sha512-yceMpm/xd4W2a85iqZyO09gTnHvXF6pyiWjD2jcOJs7hRoZtNNOO1eJlhHj1ixA+xip2hOyGn+LgcvLCMo5zXA==}
