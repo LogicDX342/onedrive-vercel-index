@@ -7,7 +7,7 @@ class MyDocument extends Document {
       <Html>
         <Head>
 
-          <meta name="head" content="型月,Typemoon,Fate,资源整理,galgame"/>
+          <meta name="keyword" content="型月,Typemoon,Fate,资源整理,galgame"/>
           <meta name="description" content="TM吧资源整合4.0发布！" />
           <link rel="icon" href="/favicon.ico" />
           <link rel="preconnect" href="https://fonts.googleapis.com" />
