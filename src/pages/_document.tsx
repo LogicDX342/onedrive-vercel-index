@@ -6,7 +6,9 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
-          <meta name="description" content="OneDrive Vercel Index" />
+
+          <meta name="head" content="型月,Typemoon,Fate,资源整理,galgame"/>
+          <meta name="description" content="TM吧资源整合4.0发布！" />
           <link rel="icon" href="/favicon.ico" />
           <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
