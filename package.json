@@ -19,6 +19,7 @@
     "@headlessui/react": "^1.7.19",
     "@tailwindcss/line-clamp": "^0.4.4",
     "@vercel/analytics": "^0.1.11",
+    "@vercel/speed-insights": "^1.2.0",
     "awesome-debounce-promise": "^2.1.0",
     "axios": "^1.10.0",
     "cors": "^2.8.5",

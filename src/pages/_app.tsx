@@ -64,6 +64,7 @@ import type { AppProps } from 'next/app'
 import NextNProgress from 'nextjs-progressbar'
 import { appWithTranslation } from 'next-i18next'
 import { Analytics } from '@vercel/analytics/react';
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 // import all brand icons with tree-shaking so all icons can be referenced in the app
 const iconList = Object.keys(Icons)
@@ -126,6 +127,7 @@ function MyApp({ Component, pageProps }: AppProps) {
       <NextNProgress height={1} color="rgb(156, 163, 175, 0.9)" options={{ showSpinner: false }} />
       <Component {...pageProps} />
       <Analytics />
+      <SpeedInsights />
     </>
   )
 }
